@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Aquest arxiu xml está estructurat amb el node arrel botiga amb diversos productes amb els seus respectius elements i atributs-->
+<botiga>
+    <producte id="1">
+        <nom>Macarrons Linguini</nom>
+        <descripcio>Macarrons italians fets de farina 99.9% natural</descripcio>
+        <preu moneda="EUR">3</preu>
+        <categoria>Menjar</categoria>
+        <disponibilitat dispo="5">Estoc</disponibilitat>
+        <!--Exemple d'imatge (no real)-->
+        <imatge>https://www.exemple.com/macarrons-linguini.jpg</imatge>
+    </producte>
+    <producte id="2">
+        <nom>Samarreta Nike</nom>
+        <descripcio>Samarreta amb el logo Nike 70% poliester 30% cotó</descripcio>
+        <preu moneda="EUR">19.99</preu>
+        <categoria>
+            <roba>
+                <subcategoria>Samarretes</subcategoria>
+            </roba>
+        </categoria>
+        <disponibilitat>Esgotat</disponibilitat>
+        <!--Exemple d'imatge (no real)-->
+        <imatge>https://www.exemple.com/samarreta-nike.jpg</imatge>
+    </producte>
+</botiga>   

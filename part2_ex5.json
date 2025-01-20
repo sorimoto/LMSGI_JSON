@@ -1,0 +1,86 @@
+{
+    "pokemons": [
+      {
+        "id": 28,
+        "nom": "Sandslash",
+        "tipus": ["Terra"],
+        "pes": {
+          "valor": 29.5,
+          "unitat": "kg"
+        },
+        "altura": {
+          "valor": 1.0,
+          "unitat": "m"
+        },
+        "estadistiques": {
+          "velocitat": 3,
+          "fortalesa": 4,
+          "precisio": 5,
+          "resistencia": 3
+        },
+        "moviments": [
+          {
+            "nom": "Terratrèmol",
+            "descripcio": "Terratrèmol és un moviment físic, però no de contacte, fa el doble de dany si l'oponent està usant excavar en aquest torn.",
+            "potencia": 100,
+            "contacte": false
+          },
+          {
+            "nom": "Dansa espasa",
+            "descripcio": "Un moviment de tipus normal que puja en dos nivells l'atac del usuari.",
+            "potencia": 0,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR9Z_u8Rh8Hr5qVPGZapwUr44_Q_09hcKy9g&s",
+        "evolucions": [
+          {
+            "id_evolucio": 28,
+            "nivel_necessari": 22,
+            "evolucionat" : true
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "nom": "Koffing",
+        "tipus": ["Verí"],
+        "pes": {
+          "valor": 1.0,
+          "unitat": "kg"
+        },
+        "altura": {
+          "valor": 0.6,
+          "unitat": "m"
+        },
+        "estadistiques": {
+          "velocitat": 3,
+          "fortalesa": 3,
+          "precisio": 3,
+          "resistencia": 4
+        },
+        "moviments": [
+          {
+            "nom": "Bomba àcida",
+            "descripcio": "Llença un núvol de fum tòxic que fa dany i baixa dos nivels de defensa especial.",
+            "potencia": 40,
+            "contacte": false
+          },
+          {
+            "nom": "Placatge",
+            "descripcio": "Amb el seu cos fa un placatje a l'altre pokemon",
+            "potencia": 40,
+            "contacte": true
+          }
+        ],
+        "imatge": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/109.png",
+        "evolucions": [
+          {
+            "id_evolucio": 110,
+            "nivel_necessari": 35
+          }
+        ]
+      }
+    ]
+  }
+  
